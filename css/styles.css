@@ -33,7 +33,7 @@ button {
   color: #4d5ae5;
 }
 
-.logo-studio {
+.logo-studio-header {
   color: #2e2f42;
 }
 
@@ -152,6 +152,14 @@ button {
 .section-two-title {
   color: #2e2f42;
 }
+.section-two-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
 /* Our Team section three*/
 .section-three-background {
@@ -205,7 +213,7 @@ button {
   color: #4d5ae5;
 }
 
-.logo-studio {
+.logo-studio-footer {
   color: #f4f4fd;
 }
 
