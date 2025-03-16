@@ -30,10 +30,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo-web {
-  color: 404BBF;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .header-navigation-list {
@@ -56,6 +57,7 @@ button {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -74,7 +76,7 @@ button {
 
 .header-address-list .heared-address-link:hover,
 .header-address-list .heared-address-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 /* Sections common features */
@@ -89,6 +91,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .section-list {
@@ -113,10 +116,10 @@ button {
   color: var(--slate);
 }
 
-/* HOVER section */
+/* HOVER section one*/
 
-.section-background {
-  background-color: var(--navy-blue);
+.section-one-background {
+  background-color: #2e2f42;
 }
 
 .main-title {
@@ -126,7 +129,7 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .main-btn {
@@ -135,24 +138,46 @@ button {
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
-  background-color: 4D5AE5;
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
-.main-btn:hover {
-  background-color: 404BBF;
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #404bbf;
 }
 
-/* Description of advantages section */
+/* Description of advantages section two*/
 
-/* Our Team section */
+/* Our Team section three*/
+.section-three-background {
+  background-color: #f4f4fd;
+}
 
-/* Our Portfolio section */
+.section-three-title {
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-three-list-item {
+  background-color: #ffffff;
+}
+.section-three-subtitle {
+  color: #2e2f42;
+}
+
+/* Our Portfolio section four*/
+.section-four-title {
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-four-subtitle {
+  color: #2e2f42;
+}
 
 /* Footer */
 
 .footer-common {
-  background-color: 2e2F42;
+  background-color: #2e2f42;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -160,14 +185,14 @@ button {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color: #4d5ae5;
 }
 
-.logo-web {
-  color: 404BBF;
+.logo-studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -175,5 +200,5 @@ button {
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
 }
